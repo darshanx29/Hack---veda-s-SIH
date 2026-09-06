@@ -1,0 +1,21 @@
+{
+    "dataset": "CTU-13",
+    "scenario": "1-Neris-20110810.binetflow.parquet",
+    "features": [
+        "dur",
+        "proto",
+        "dir",
+        "state",
+        "stos",
+        "dtos",
+        "tot_pkts",
+        "tot_bytes",
+        "src_bytes"
+    ],
+    "target": "target",
+    "target_mapping": {
+        "0": "Normal/Background",
+        "1": "Botnet"
+    },
+    "model": "XGBoost"
+}
