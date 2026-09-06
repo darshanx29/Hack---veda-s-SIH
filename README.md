@@ -1,31 +1,90 @@
-# SPECTRA — One-Way Network Threat Monitoring
+@'
+# 🛡️ RakshaNetra
 
-```
-spectra/
-├── backend/     Flask API (see backend/README.md for endpoint reference)
-└── frontend/    React + Vite dashboard
-```
+> **Passive AI-Driven Network Threat Detection for Critical Infrastructure**
 
-## Run IT (two terminals)
+**RakshaNetra** is an intelligent, passive network security system designed to detect suspicious activities and cyber threats across critical network infrastructure **without actively interacting with, modifying, or re-contacting network endpoints**.
 
-**Terminal 1 — backend**
-```bash
-cd backend
-python3 -m venv venv && source venv/bin/activate   # Windows: venv\Scripts\activate
-pip install -r requirements.txt
-python run.py
-```
-Runs on **http://localhost:5000**. Check it's up: `curl http://localhost:5000/api/health`
+The system analyzes mirrored network traffic and network-flow metadata to identify anomalies, malicious patterns, and potential threats in near real time. By combining **network traffic analysis, feature engineering, machine learning, and rule-based detection**, RakshaNetra provides security teams with actionable threat intelligence while maintaining a **read-only monitoring architecture**.
 
-**Terminal 2 — frontend**
-```bash
-cd frontend
-npm install
-npm run dev
-```
-Runs on **http://localhost:5173**. It's already pointed at the backend via
-`frontend/.env` (`VITE_API_BASE=http://localhost:5000/api`) and
-`frontend/src/api.js` has a function for every backend endpoint.
+### 🎯 Core Principle
 
-Open http://localhost:5173 — leave both terminals running.
+> **Observe → Analyze → Detect → Alert**
 
+RakshaNetra transforms passive network observations into actionable security intelligence without interfering with the monitored network.
+
+---
+
+## 🚨 Problem Statement
+
+Critical infrastructure networks require continuous monitoring to identify cyber threats such as:
+
+- Distributed Denial-of-Service (DDoS) attacks
+- Network scanning and reconnaissance
+- Abnormal traffic patterns
+- Suspicious DNS activity
+- TLS/QUIC-based anomalies
+- Communication with potentially malicious infrastructure
+- Traffic spikes and behavioral anomalies
+- Unknown or previously unseen threats
+
+Traditional security solutions may depend heavily on payload inspection, endpoint interaction, or decryption.
+
+However, highly restricted environments may rely on:
+
+- Passive network taps
+- SPAN/mirror ports
+- Hardware data diodes
+- NetFlow/IPFIX/sFlow
+- Network telemetry
+
+RakshaNetra addresses this challenge by providing a **passive threat detection system capable of extracting meaningful security intelligence without inspecting encrypted payloads or actively contacting network sources**.
+
+---
+
+## 💡 Our Solution
+
+RakshaNetra follows a **Traffic → Intelligence → Action** architecture.
+
+```text
+┌─────────────────────┐
+│   NETWORK TRAFFIC   │
+│                     │
+│ PCAP / NetFlow      │
+│ IPFIX / sFlow       │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────┐
+│ Traffic Collection  │
+│ & Preprocessing     │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────┐
+│ Feature Extraction  │
+│                     │
+│ Flow • DNS • TLS    │
+│ Timing • Statistics │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────┐
+│ THREAT DETECTION    │
+│                     │
+│ Rules + ML Models   │
+│ Anomaly Detection   │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────┐
+│ Risk Scoring        │
+│ & Classification    │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────┐
+│ ALERTS & DASHBOARD  │
+│                     │
+│ Detection → Action  │
+└─────────────────────┘
