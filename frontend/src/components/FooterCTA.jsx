@@ -38,7 +38,7 @@ export default function FooterCTA({ onDeployClick, onDemoClick }) {
             </h2>
 
             <p className="text-stone-600 text-sm sm:text-base leading-relaxed">
-              Deploy SPECTRA's passive optical diode sensor tap in under 15 minutes. No network modification, no outbound transmissions, sub-millisecond AI threat classification.
+              Deploy RakshaNetra's passive optical diode sensor tap in under 15 minutes. No network modification, no outbound transmissions, sub-millisecond AI threat classification.
             </p>
 
             <div className="flex flex-wrap items-center gap-4 pt-2">
@@ -92,7 +92,7 @@ export default function FooterCTA({ onDeployClick, onDemoClick }) {
                 <ShieldAlert className="w-5 h-5 text-white" />
               </div>
               <span className="font-heading font-extrabold text-xl text-stone-900">
-                SPECTRA<span className="text-indigo-600">.SEC</span>
+                RakshaNetra<span className="text-indigo-600">.SEC</span>
               </span>
             </div>
             <p className="text-xs text-stone-600 max-w-sm leading-relaxed">
@@ -100,7 +100,7 @@ export default function FooterCTA({ onDeployClick, onDemoClick }) {
             </p>
             <div className="flex items-center space-x-2 text-xs font-mono text-emerald-700 font-semibold">
               <span className="h-2 w-2 rounded-full bg-emerald-600 animate-pulse"></span>
-              <span>SPECTRA SYSTEM STATUS: 100% OPERATIONAL</span>
+              <span>RakshaNetra SYSTEM STATUS: 100% OPERATIONAL</span>
             </div>
           </div>
 
@@ -141,7 +141,7 @@ export default function FooterCTA({ onDeployClick, onDemoClick }) {
 
         {/* Bottom Bar */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs font-mono text-stone-500 gap-4">
-          <p>© {new Date().getFullYear()} SPECTRA Cyber Security Systems Inc. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} RakshaNetra Cyber Security Systems Inc. All rights reserved.</p>
           <div className="flex items-center space-x-6">
             <a href="#" className="hover:text-stone-800">Privacy Policy</a>
             <a href="#" className="hover:text-stone-800">Air-Gap Certification</a>

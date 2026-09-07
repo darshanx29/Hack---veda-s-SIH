@@ -344,7 +344,7 @@ export default function AlertInvestigation({ activeFilterThreat }) {
                       <CheckCircle className="w-4 h-4" />
                       <span>Read-only / one-way monitoring</span>
                     </div>
-                    <p className="text-slate-400 leading-relaxed">SPECTRA records and surfaces the detection only. It does not decrypt payloads, probe hosts, send mitigation commands, or modify the monitored network.</p>
+                    <p className="text-slate-400 leading-relaxed">RakshaNetra records and surfaces the detection only. It does not decrypt payloads, probe hosts, send mitigation commands, or modify the monitored network.</p>
                   </div>
                 </div>
 

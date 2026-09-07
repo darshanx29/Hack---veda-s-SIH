@@ -1,4 +1,4 @@
-// SPECTRA API client
+// RakshaNetra API client
 // Copy this into src/api.js in the React project.
 // Every function's return shape matches what the components already expect
 // from their hardcoded arrays, so swapping is a straight fetch-then-setState.

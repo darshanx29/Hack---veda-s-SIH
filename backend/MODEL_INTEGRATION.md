@@ -1,6 +1,6 @@
-# SPECTRA — Real Model Integration
+# RakshaNetra — Real Model Integration
 
-This adds your two trained models into the existing SPECTRA backend
+This adds your two trained models into the existing RakshaNetra backend
 scaffold, alongside (not replacing) the mock data in `app/data.py`.
 
 ## What's wired in

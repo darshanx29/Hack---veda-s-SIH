@@ -34,7 +34,7 @@ def create_app():
     def health():
         from app.ml.model_loader import loaded_model_names
         return jsonify({
-            "service": "SPECTRA Backend",
+            "service": "RakshaNetra Backend",
             "status": "ok",
             "loaded_models": loaded_model_names(),
         })

@@ -91,7 +91,7 @@ export default function ThreatCategories({ onSelectThreatFilter }) {
               Real-Time <span className="gradient-text-blue">Threat Detection Vectors</span>
             </h2>
             <p className="mt-2 text-stone-600 text-sm sm:text-base max-w-2xl">
-              SPECTRA inspects passive mirror traffic across 6 threat dimensions. Trained ML models and metadata/rule-based detectors are shown separately so the console never overstates model coverage.
+              RakshaNetra inspects passive mirror traffic across 6 threat dimensions. Trained ML models and metadata/rule-based detectors are shown separately so the console never overstates model coverage.
             </p>
           </div>
 

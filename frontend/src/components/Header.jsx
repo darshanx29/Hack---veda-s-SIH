@@ -26,7 +26,7 @@ export default function Header({ activeTab, setActiveTab, onLaunchDemo }) {
           <div className="flex items-center space-x-2.5 cursor-pointer shrink-0" onClick={() => setActiveTab('overview')}>
             <Shield className="w-5 h-5 text-indigo-600" />
             <span className="font-heading font-bold text-lg tracking-tight text-slate-900">
-              SPECTRA
+              RakshaNetra
             </span>
           </div>
 

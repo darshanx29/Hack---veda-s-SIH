@@ -255,7 +255,7 @@ export default function HeroSection({ onExplore, onLiveDemo }) {
       ctx.fillText('AI ENGINE', aiHubX, aiHubY - 3);
       ctx.fillStyle = '#0D9488';
       ctx.font = '9px JetBrains Mono, monospace';
-      ctx.fillText('SPECTRA V4', aiHubX, aiHubY + 10);
+      ctx.fillText('RakshaNetra V4', aiHubX, aiHubY + 10);
 
       animationFrameId = requestAnimationFrame(render);
     };

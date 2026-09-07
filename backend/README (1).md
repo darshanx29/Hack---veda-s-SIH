@@ -1,6 +1,6 @@
-# SPECTRA Backend
+# RakshaNetra Backend
 
-Flask backend for the SPECTRA one-way (air-gapped) network threat monitoring
+Flask backend for the RakshaNetra one-way (air-gapped) network threat monitoring
 dashboard. It replaces every hardcoded array and `Math.random()` simulation
 in the React frontend (`Unidirectional-Network-Monitoring-main`) with real
 API responses.
