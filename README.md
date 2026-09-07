@@ -1,7 +1,7 @@
-# RakshaNetra — One-Way Network Threat Monitoring
+# SPECTRA — One-Way Network Threat Monitoring
 
 ```
-RakshaNetra/
+spectra/
 ├── backend/     Flask API (see backend/README.md for endpoint reference)
 └── frontend/    React + Vite dashboard
 ```
